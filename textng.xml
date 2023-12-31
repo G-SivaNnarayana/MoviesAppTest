@@ -1,0 +1,12 @@
+<suite name="MoviesAppTestSuite" parallel="tests" thread-count="2">
+    <test name = "MoviesAppUIAndFunctionalities">
+    <classes>
+        <class name="LoginPageTestRunner"/>
+        <class name="HomePageTestRunner"/>
+        <class name="PopularPageTestRunner"/>
+        <class name="SearchPageTestRunner"/>
+        <class name="MoviesDetailsPageTestRunner"/>
+        <class name="AccountPageTestRunner"/>
+    </classes>
+    </test>
+</suite>
